@@ -1,0 +1,16 @@
+Provides basic functionality to support i18n.
+
+Installation
+-------------
+Normal NetBeans plugin installation.
+
+Future. welcome contributors :)
+-------------------------------
+- Hint fix that will automatically extracts string literals to a specified Bundle.properties
+- Configuration of the Suppression string from NetBeans Option windows
+- To fix the issue when there are more than 1 string literal found in a line.
+  2 hints will be displayed a the moment.
+
+Version History
+---------------
+1.0 - Initial release
