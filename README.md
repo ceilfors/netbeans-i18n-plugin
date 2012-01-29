@@ -2,7 +2,7 @@
 Provides basic functionality to support i18n in NetBeans
 
 ## Installation
-> Supports only __NetBeans 7.1__ onwards
+> Supports only __NetBeans 7.1__ onwards  
 1. __Download__ the [plugin](https://github.com/downloads/ceilfors/netbeans-i18n-plugin/netbeans-i18n-plugin-1.0.nbm).
 1. Open NetBeans IDE and go to Tools > Plugins.
 1. Select tab Downloaded, click __Add plugins__. Select the downloaded nbm file.
