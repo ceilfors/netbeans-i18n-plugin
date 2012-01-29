@@ -1,5 +1,5 @@
 ## Installation
-Normal NetBeans plugin installation.
+Supports only __NetBeans 7.1__ onwards. Normal NetBeans plugin installation. Hint feature will only work after restarting the NetBeans.
 
 ## Future `welcome contributors :)`
 * Hint fix that will automatically extracts string literals to a specified Bundle.properties
