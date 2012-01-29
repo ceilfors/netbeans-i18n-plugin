@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nbm>
+    <!--
+    <moduleType>autoload</moduleType>
+    <codeNameBase>com.wyse.netbeans.i18n/1</codeNameBase>
+    <licenseName>Apache License, Version 2.0</licenseName>
+    <licenseFile>license.txt</licenseFile>
+    -->
+<!--    <moduleType>autoload</moduleType>-->
+    <author>Wyse</author>
+    <manifest>src/main/nbm/manifest.mf</manifest>
+    <licenseName>Apache License, Version 2.0</licenseName>
+    <licenseFile>LICENSE.txt</licenseFile>
+    
+    <dependencies>
+        <dependency>
+            <id>org.netbeans.modules:org-netbeans-modules-java-hints</id>
+            <type>impl</type>
+        </dependency>
+    </dependencies>
+</nbm>

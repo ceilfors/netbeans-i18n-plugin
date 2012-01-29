@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.wyse.netbeans.i18n
+OpenIDE-Module-Layer: com/wyse/netbeans/i18n/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/wyse/netbeans/i18n/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
