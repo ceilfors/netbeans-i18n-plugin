@@ -16,15 +16,15 @@ Provides basic functionality to support i18n in NetBeans
 * To fix the issue when there are more than 1 string literal found in a line. More than 1 hint will be displayed a the moment.
 
 ## Features
-### Hint fix  
-The only fix that is supported now is to suppress the String literal found in the editor. This this fix is selected, a java line comment would be added to the end of the line. The usage is like any other NetBeans hint:  
+### Hint
+A hint will be shown in the editor when there is a String literal found. This hint is placed under the _General_ category with _"String is not i18n-ed"_ as its name. The only hint fix that is supported now is to suppress them. Like any other NetBeans hint, the fix will be shown when the hint icon is clicked:  
 ![show_hint.jpg](https://github.com/ceilfors/netbeans-i18n-plugin/raw/master/wiki/show_hint.jpg)  
   
-When the fix is selected, the suppression comment will be added:  
+When the fix is selected, a suppression comment will be added to the end of the line:  
 ![suppression_applied.jpg](https://github.com/ceilfors/netbeans-i18n-plugin/raw/master/wiki/suppression_applied.jpg)
 
 ### Task  
 ![task.jpg](https://github.com/ceilfors/netbeans-i18n-plugin/raw/master/wiki/task.jpg)  
-Displays a Warning when a String literal not i18n-ed in the NetBeans Task List window. When the plugin is installed for the first time, the Task's Type (I18n Tasks) will be unchecked by default. It needs to be enabled in the Task List Filter window:  
+Displays a Warning when a String literal is not i18n-ed in the NetBeans Task List window. When the plugin is installed for the first time, the Task's Type (I18n Tasks) will be unchecked by default. It needs to be enabled in the Task List Filter window:  
 ![task_list.jpg](https://github.com/ceilfors/netbeans-i18n-plugin/raw/master/wiki/task_list.jpg)  
-This feature is using [javaparser](http://code.google.com/p/javaparser/) to parse the java file. When this Task's Type is finally enabled, NetBeans will scan all of the files within the scope stated and this plugin will parse all of the java files found manually. This is due to NetBeans API limitation. When lot of "Task" plugins are already installed, this plugin maybe have a performance impact as well. If skeptical, disable this feature from the Task filter and use the Netbeans' Inspect and Transform feature.
+This feature is using [javaparser](http://code.google.com/p/javaparser/) to parse the java file. When this Task's Type is enabled, NetBeans will scan all of the files within the scope stated and this plugin will parse all of the java files found manually, hence this plugin might cause a performance degradation. This have to be done due to NetBeans API limitation. If skeptical, disable this Task feature from the Task filter and use the Netbeans' Inspect and Transform feature. In the Inspect and Transform window, select _Single inspection_ and choose _"String is not i18n-ed"_ under the _General_ category.
